@@ -1,0 +1,49 @@
+
+  <!doctype html>
+  <html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Contacto - AgroTrack</title>
+    <link rel="stylesheet" href="/estilos.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>🌾 AgroTrack</h1>
+      </div>
+      <nav>
+        <a href="/">Inicio</a>
+        <a href="/productos.html">Productos</a>
+        <a href="/contacto" class="activo">Contacto</a>
+        <a href="/login">Login</a>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Contáctenos</h2>
+      <p>Complete el siguiente formulario para enviarnos su consulta:</p>
+
+      <form class="formulario" action="/contacto/cargar" method="POST">
+        <label>Nombre:</label>
+        <input type="text" name="nombre" required>
+
+        <label>Email:</label>
+        <input type="email" name="email" required>
+
+        <label>Mensaje:</label>
+        <textarea name="mensaje" rows="5" required></textarea>
+
+        <button type="submit">Enviar Consulta</button>
+      </form>
+
+      <div class="acciones">
+        <a href="/contacto/listar">📜 Ver consultas recibidas</a>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 AgroTrack | Innovación en gestión agropecuaria</p>
+    </footer>
+  </body>
+  </html>
+  

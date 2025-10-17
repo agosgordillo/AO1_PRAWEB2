@@ -1,0 +1,174 @@
+
+  /* ================================
+     AgroTrack - Estilos Generales
+     Paleta: Verde Bosque (#1D713B), Fondo Gris Claro (#F7F7F7)
+     ================================ */
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F7F7F7;
+    color: #222;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #1D713B;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  header .logo h1 {
+    margin: 0;
+    font-size: 1.8em;
+  }
+
+  header .slogan {
+    font-size: 0.9em;
+    opacity: 0.9;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    padding: 6px 10px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease-in-out, opacity 0.2s;
+  }
+
+  nav a:hover {
+    background-color: #14542B;
+  }
+
+  nav a.activo {
+    background-color: #14542B;
+  }
+
+  main {
+    max-width: 900px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+  }
+
+  h2 {
+    color: #1D713B;
+    margin-top: 0;
+  }
+
+  p {
+    line-height: 1.6;
+  }
+
+  .hero {
+    text-align: center;
+  }
+
+  .boton-principal {
+    display: inline-block;
+    background-color: #1D713B;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: opacity 0.2s ease-in-out;
+  }
+
+  .boton-principal:hover {
+    opacity: 0.9;
+  }
+
+  .grid-productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+  }
+
+  .formulario input,
+  .formulario textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1em;
+  }
+
+  .formulario input:focus,
+  .formulario textarea:focus {
+    border-color: #1D713B;
+    outline: none;
+  }
+
+  .formulario button {
+    background-color: #1D713B;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  .formulario button:hover {
+    background-color: #14542B;
+  }
+
+  .acciones {
+    margin-top: 20px;
+  }
+
+  .acciones a {
+    color: #1D713B;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .acciones a:hover {
+    text-decoration: underline;
+  }
+
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1D713B;
+    color: #fff;
+    margin-top: 40px;
+    font-size: 0.9em;
+  }
+  

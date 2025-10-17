@@ -1,0 +1,42 @@
+
+  <!doctype html>
+  <html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Login - AgroTrack</title>
+    <link rel="stylesheet" href="/estilos.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>🌾 AgroTrack</h1>
+      </div>
+      <nav>
+        <a href="/">Inicio</a>
+        <a href="/productos.html">Productos</a>
+        <a href="/contacto">Contacto</a>
+        <a href="/login" class="activo">Login</a>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Ingreso al Portal</h2>
+      <p>Ingrese sus credenciales de acceso.</p>
+
+      <form class="formulario" action="/auth/recuperar" method="POST">
+        <label>Usuario:</label>
+        <input type="text" name="usuario" required>
+
+        <label>Clave:</label>
+        <input type="password" name="clave" required>
+
+        <button type="submit">Acceder</button>
+      </form>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 AgroTrack | Portal Interno</p>
+    </footer>
+  </body>
+  </html>
+  
